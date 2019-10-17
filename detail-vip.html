@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A little bit of fun</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+</head>
+
+<script>
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 500);
+        });
+    });
+
+</script>
+
+<body>
+    <header>
+        <name>
+            <p>
+                <a href="index.html">Sohee Kim</a>
+            </p>
+        </name>
+        <about>
+            <p>
+                <a href="aboutme.html">About me</a>
+            </p>
+        </about>
+    </header>
+
+
+    <div class="split-line-gray"></div>
+    <ul>
+        <li><a href="detail-bun.html">번개장터</a></li>
+        <li><a href="detail-doma.html">도마</a></li>
+        <li><a href="detail-blar.html">블라</a></li>
+        <li><a href="detail-vip.html">VR report</a></li>
+        <li><a href="detail-shp.html">SHP BAND2</a></li>
+        <li><a href="detail-void.html">VOID</a></li>
+    </ul>
+
+    <div class="detail-view">
+        <p class="content-article-detail">
+            Type of work : Information Design</p>
+        <br><br>
+
+        <div class="item-img">
+            <img src="images/vip-image.png"></div>
+
+        <p class="content-article-detail">
+            2017년이 시작되면서, VR에 관한 수요가 폭발적으로 늘어나고, 관련 VR 게임 컨텐츠가 이에 맞추어 많이 시중에 출시되었고, 또 계속 개발되는 중입니다.<br><br>2017년 11월 기준으로, 현재 시중에 출시된 VR 게임들의 정보들을
+            인포그래픽으로 나타내어 봤습니다.
+        </p>
+
+        <div class="item-img">
+            <img src="images/vip-1.png"></div>
+
+        <p class="content-article-detail">
+            먼저, 스팀과 오큘러스 스토어, 플레이 스토어를 기준으로 VR 관련 키워드가 포함된 게임들을
+            구글 스프레드 시트에 정리를 했습니다.<br><br>
+            총 300개 이상의 게임을 찾아서 데이터화 하였으나, 이 중 에서 실제로 시각화에 이용된
+            데이터는 약 150개 가량의 게임이었습니다.<br><br>다량의 데이터를 표현하기 위해 보고서 방식의 인포그래픽으로 만들면 좋겠다고 생각했습니다.</p>
+
+        <div class="item-img">
+            <img src="images/vip-2-1.gif">현재 시중의 HMD 의 스펙, 가격, 판매량 등을 나타낸 파트입니다.</div>
+
+        <div class="item-img">
+            <img src="images/vip-3.gif">게임을 각 장르 (액션, 공포, 시뮬레이션, 어드벤처, 스포츠, 레이싱) 으로 나누어서 현재 TOP 30 순위에 들어간 게임을 배치하였습니다.</div>
+
+        <div class="item-img">
+            <img src="images/vip-4.gif"> <img src="images/vip-5.gif"><img src="images/vip-6.gif">VR 게임의 세부 성격을 나타낸 파트입니다.</div>
+
+        <div class="item-img2"><br><br></div>
+    </div>
+
+</body>
+
+</html>
