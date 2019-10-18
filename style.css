@@ -39,7 +39,7 @@ about {
     font-size: 20px;
     float: right;
     line-height: 0px;
-    margin: 35px 0px;
+    margin: 25px 0px;
 }
 
 
@@ -156,7 +156,7 @@ a {
 
 
 header {
-    height: 100px;
+    height: 80px;
     padding: 0 80px;
     font-family: 'Gothic A1', sans-serif;
 }
