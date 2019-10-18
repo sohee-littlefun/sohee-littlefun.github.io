@@ -14,8 +14,9 @@ body {
 }
 
 .content-title {
-    font-weight: 400;
-    font-size: 17px;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: right;
 }
 
 .content-article-detail {
@@ -34,11 +35,11 @@ img {
 }
 
 about {
-    font-family: 'Jomhuria', cursive;
-    font-size: 50px;
+    font-weight: 200;
+    font-size: 20px;
     float: right;
     line-height: 0px;
-    margin-top: 5px;
+    margin: 35px 0px;
 }
 
 
@@ -55,6 +56,8 @@ about {
         transform: translate3d(0, 0, 0);
     }
 }
+
+
 
 .face {
     font-family: 'Jomhuria', cursive;
@@ -111,7 +114,6 @@ a {
 
 .project-1 img:hover {
     opacity: 0.9;
-
 }
 
 .project-2 img:hover {
@@ -144,11 +146,11 @@ a {
     animation-fill-mode: both;
 }
 
-.project-1 img{
+.project-1 img {
     margin-bottom: -1%;
 }
 
-.project-2 img{
+.project-2 img {
     margin-bottom: -1%;
 }
 
@@ -165,26 +167,17 @@ header {
     margin: 10px 80px;
 }
 
-
-
-#nav-title {
-    font-family: 'Jomhuria', cursive;
-    font-size: 120pt;
-    float: right;
-    color: #333333;
-    line-height: inherit;
-    text-align: left;
-}
-
 footer {
     height: 100px;
     font-size: 25px;
     line-height: 1.5;
+    position: relative;
 }
 
 .account {
     padding: 30px 80px;
     font-size: 15px;
+    text-align: right;
 }
 
 ul {
@@ -195,29 +188,25 @@ ul {
 }
 
 ul li {
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 20px;
     min-width: 150px;
 }
 
-
-.ul-summary a {
+z .ul-summary a {
     padding-left: 15px;
     color: #999999;
     font-size: 17px;
 }
 
-.ul-summary {
-    margin: -10px 0px 0px 10px;
-}
+.ul-summary li {
+    margin-top: -10px;
 
+}
 
 .list {
     padding: 0px 80px;
-    max-width: 100%;
-    height: auto;
     width: 100%;
-    overflow: hidden;
     margin-bottom: 50px;
     margin-left: -10px;
     float: left;
@@ -229,7 +218,11 @@ ul li {
     float: left;
     width: 200px;
     margin: 20px 10px;
-    align-items: center;
+}
+
+.history {
+    height: 350px;
+    padding-bottom: 60px;
 }
 
 .tool {
