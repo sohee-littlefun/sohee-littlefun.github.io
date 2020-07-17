@@ -278,3 +278,7 @@ ul li {
 .drawing img {
     width: 400px;
 }
+
+.year{
+    font-weight: 300;
+}
