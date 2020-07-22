@@ -87,14 +87,14 @@ a {
 .project-1 {
     float: left;
     color: #999999;
-    max-width: 49.3%;
+    width: 49.3%;
     font-size: 13px;
 }
 
 .project-2 {
     float: right;
     color: #999999;
-    max-width: 49.3%;
+    width: 49.3%;
     font-size: 13px;
 }
 
