@@ -202,9 +202,13 @@ ul li {
     min-width: 150px;
 }
 
+ul li a{
+    color: #999999;
+}
+
 .ul-summary a {
     padding-left: 15px;
-    color: #999999;
+    color: black;
     font-size: 17px;
 }
 
