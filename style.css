@@ -277,7 +277,7 @@ ul li a{
 }
 
 .item-img3 {
-    width: 45%;
+    max-width: 45%;
     height: auto;
     float: left;
     margin: 0 20px 0 0;
