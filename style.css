@@ -21,9 +21,11 @@ body {
     float: left;
 }
 .type {
-    line-height: 180%;
+    line-height: 150%;
     font-size: 20px;
     float: right;
+    font-weight: 100;
+    color: grey;
 }
 
 .content-article-detail {
