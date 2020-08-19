@@ -74,6 +74,7 @@ about {
     line-height: 80px;
     padding: 60px 80px 0px 80px;
     margin-top: 20px;
+    color:#333333;
 }
 
 .face2 {
@@ -83,6 +84,7 @@ about {
     padding: 60px 0px 0px 80px;
     margin-top: 20px;
     text-align: right;
+    color:#333333;
 }
 
 a {
