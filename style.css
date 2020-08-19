@@ -8,7 +8,7 @@ html {
 
 body {
     height: auto;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Gothic A1', sans-serif;
     font-weight: 200;
     line-height: 25px;
 }
@@ -69,7 +69,7 @@ about {
 
 
 .face {
-    font-family: 'Jomhuria';
+    font-family: 'Bebas Neue', cursive;
     font-size: 120pt;
     line-height: 80px;
     padding: 60px 80px 0px 80px;
@@ -77,7 +77,7 @@ about {
 }
 
 .face2 {
-    font-family: 'Jomhuria';
+    font-family: 'Bebas Neue', cursive;
     font-size: 120pt;
     line-height: 80px;
     padding: 60px 0px 0px 80px;
