@@ -99,12 +99,31 @@ a {
     width: 49.3%;
     font-size: 13px;
 }
+.project-1 img{
+    transition: all 0.5s;
+    opacity: 0.3;
+    box-shadow: 1px 1px 20px #f5f5f5;
+}
+
+.project-1 :hover {
+    opacity: 1;
+}
 
 .project-2 {
     float: right;
     color: #999999;
     width: 49.3%;
     font-size: 13px;
+}
+
+.project-2 img{
+    transition: all 0.5s;
+    opacity: 0.3;
+    box-shadow: 1px 1px 20px #f5f5f5;
+}
+
+.project-2 :hover {
+    opacity: 1;
 }
 
 #raw {
