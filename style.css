@@ -311,15 +311,15 @@ ul li a{
 }
 
 .rec {
-    height: 50px;
-    width: 300px;
+    height: 20px;
+    width: 250px;
     border-radius: 50px;
     background-color: #4975FF;
-    text-align-last: center;
+    text-align: center;
     overflow: hidden;
     margin: auto;
     color: white;
-    font-weight:bold;
-    font-size: 30px;
-    padding-top: 30px;
+    font-weight:600;
+    font-size: 20px;
+    padding: 20px 0px;
 }
