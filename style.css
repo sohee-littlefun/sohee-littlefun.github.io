@@ -309,3 +309,17 @@ ul li a{
 .word{
     max-width:80%;
 }
+
+.rec {
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #4975FF;
+    text-align-last: center;
+    overflow: hidden;
+    margin: auto;
+    color: white;
+    font-weight:bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
