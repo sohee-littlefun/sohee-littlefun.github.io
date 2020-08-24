@@ -340,6 +340,6 @@ ul li a{
     padding: 10px 0px;
     margin-bottom: 2%;
     margin-top: 2%;
-    box-shadow: 1px 1px 20px #f5f5f5;  
-     border-color: #809EFF;
+    box-shadow: 1px 1px 20px #f5f5f5;
+    border: 2px solid #809EFF;
 }
