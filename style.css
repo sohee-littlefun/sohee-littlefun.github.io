@@ -229,7 +229,7 @@ ul li a{
     font-size: 13pt;
     line-height: 27px;
     float: left;
-    width: 300px;
+    width: auto;
     margin: 20px 20px;
 }
 
