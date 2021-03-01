@@ -75,6 +75,7 @@ about {
     padding: 60px 80px 0px 80px;
     margin-top: 20px;
     color:#333333;
+    margin-left: 80px;
 }
 
 .face2 {
@@ -94,10 +95,9 @@ a {
 
 
 .project {
-    width: 32%;
+    width: 33.3%;
     height: auto;
     float: left;
-    margin-right: 1%;
     color: #999999;
     font-size: 10pt;
 }
@@ -113,12 +113,11 @@ a {
 }
 
 #raw {
-    padding: 0px 80px;
     width: auto;
     overflow: hidden;
     height: auto;
+    
     margin-bottom: 0.2%;
-
     animation-name: fadeOut;
     animation-duration: 1s;
     animation-delay: 0s;
@@ -127,27 +126,14 @@ a {
 }
 
 #raw-2 {
-    padding: 0px 80px;
-    max-width: 100%;
+    width: auto;
     overflow: hidden;
+    height: auto;
+    
     margin-bottom: 0.2%;
-
     animation-name: fadeOut;
     animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
-}
-
-#raw-3 {
-    padding: 0px 80px;
-    max-width: 100%;
-    overflow: hidden;
-    margin-bottom: 5%;
-
-    animation-name: fadeOut;
-    animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
 }
