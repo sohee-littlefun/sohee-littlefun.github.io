@@ -5,34 +5,148 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex,nofollow">
     <title>Simplest Joys</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Passion+One:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
 </head>
 
-<body>
+<body style="overflow: hidden;">
     <header>
 
-        <about>
-            <p>
-                <a href="aboutme.html">Resume</a>
-            </p>
-        </about>
+        <div class="logo">
+            Allen.kim
+        </div>
+    
+        <a href="aboutme.html">
+            
+            <div class="btn-top">
+
+                <div class="text">resume</div>
+                <div id="wrapper">
+                    <div id="line-wrapper">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="detail-srrk.html">
+                <div class="btn-top">
+                <div class="text">recent project<div class="arrow"></div></div>
+            </div></a>
+        </a>
+
     </header>
 
-    <div class="split-line-gray"></div>
+    <div class="contents">
+        <div class="name">
+            Simplest joys
+        </div>
+        <p class="slogan">
+            I believe that
+            <br>design should provoke emotions.
+            <br>design should make you feel good.
+            <br>create happiness.
+        </p>
 
-<div class="face">Simplest joys</div>
-    <br><br><br>
-    <p class="content-article"> I believe that design should provoke emotions. design should make you feel good. create happiness. </p><br><br><br>
+    </div>
 
 
+
+    <div class="slidebox">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+        <input type="radio" name="slide" id="slide05">
+        <input type="radio" name="slide" id="slide06">
+
+        <ul class="slidelist">
+            <li class="slideitem">
+                <a href="detail-srrk.html"><img src="images/sum-srrk.png"></a>
+            </li>
+            <li class="slideitem">
+                <a href="detail-tob.html"><img src="images/sum-tob.png"></a>
+            </li>
+            <li class="slideitem">
+                <a href="detail-bun.html"><img src="images/sum-bun.png"></a>
+            </li>
+            <li class="slideitem">
+                <a href="detail-shp.html"><img src="images/sum-shp.png"></a>
+            </li>
+            <li class="slideitem">
+                <a href="detail-vip.html"><img src="images/sum-vip.png"></a>
+            </li>
+            <li class="slideitem">
+                <a href="detail-void.html"><img src="images/sum-void.png"></a>
+            </li>
+
+        </ul>
+
+        <div class="slide-control">
+            <div class="control01">
+                <label for="slide02" class="next">
+                    <div class="warrow-right"></div>
+                </label>
+                <label for="slide04" class="prev">
+                    <div class="arrow-left"></div>
+                </label>
+            </div>
+            <div class="control02">
+                <label for="slide03" class="next">
+                    <div class="warrow-right"></div>
+                </label>
+                <label for="slide01" class="prev">
+                    <div class="warrow-left"></div>
+                </label>
+            </div>
+            <div class="control03">
+                <label for="slide04" class="next">
+                    <div class="warrow-right"></div>
+                </label>
+                <label for="slide02" class="prev">
+                    <div class="warrow-left"></div>
+                </label>
+            </div>
+            <div class="control04">
+                <label for="slide05" class="next">
+                    <div class="warrow-right"></div>
+                </label>
+                <label for="slide03" class="prev">
+                    <div class="warrow-left"></div>
+                </label>
+            </div>
+            <div class="control05">
+                <label for="slide06" class="next">
+                    <div class="warrow-right"></div>
+                </label>
+                <label for="slide04" class="prev">
+                    <div class="warrow-left"></div>
+                </label>
+            </div>
+            <div class="control06">
+                <label for="slide01" class="next">
+                    <div class="arrow-right"></div>
+                </label>
+                <label for="slide05" class="prev">
+                    <div class="warrow-left"></div>
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+    <!--
     <div id="raw">
-     
+
         <div class="project">
-          <!--  <a href="detail-srrk.html"> -->
+           <a href="detail-srrk.html">
                 <img src="images/sum-srrk.svg">
-         <!-- </a> --> <!--스르륵 - Srrk은 연결을 통한 변화를 추구합니다.-->Srrk-(Will be updated on the 10th)
+         </a>스르륵 - Srrk은 연결을 통한 변화를 추구합니다
         </div>
         
         <div class="project">
@@ -64,13 +178,17 @@
             </a>LAB VOID - 다양한 아이디어를 가진 학생들이 자유롭게 모여 토론하는 소모임.
         </div>
     </div>
-
-
-
-    <footer>
-        <div class="account"> Copyright 2021. kim sohee all rights reserved <br> ccrab.so@gmail.com</div>
-    </footer>
+-->
 
 </body>
+
+<footer>
+
+    <div class="account">
+        Copyright 2021. kim sohee all rights reserved
+        <br> ccrab.so@gmail.com
+    </div>
+
+</footer>
 
 </html>
