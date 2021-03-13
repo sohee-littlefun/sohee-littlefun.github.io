@@ -20,9 +20,9 @@
         .slidebox .slidelist .slideitem > a {position:relative;}
         .slidebox .slidelist .slideitem > a img {max-width:50%; float: right;}
         
-        .slidebox .slide-control [class*="control"] label {float:right;transform:translateY(-100%);padding:22px;background-color:#ffffff;margin-top: 2%;}
-        .slidebox .slide-control [class*="control"] label.prev {float:right;background-color:black; opacity: 0.7;border-radius: 40%; margin-right: 5px; }
-        .slidebox .slide-control [class*="control"] label.next {float:right;background-color:black; opacity: 0.7;border-radius: 40%; }
+        .slidebox .slide-control [class*="control"] label {float:right;transform:translateY(-100%);padding:22px;background-color:#ffffff;}
+        .slidebox .slide-control [class*="control"] label.prev {float:right;background-color:black; opacity: 0.7;border-radius: 40%; margin-right: 60px; position: fixed;bottom: 2%;right: 5%;}
+        .slidebox .slide-control [class*="control"] label.next {float:right;background-color:black; opacity: 0.7;border-radius: 40%; position: fixed;bottom: 2%;right: 5%;}
         
         [name="slide"] {display:none;}
         #slide01:checked ~ .slidelist .slideitem {left:0;}
