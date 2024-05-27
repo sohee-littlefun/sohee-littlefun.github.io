@@ -150,7 +150,7 @@ header{
 }
 
 .name {
-    font-size: 80pt;
+    font-size: 50pt;
     width: 50%;
     text-align: left;
     color:#121212;
@@ -172,7 +172,7 @@ header{
 .slogan {
     color: white;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 150%;
     letter-spacing: 2px;
     text-shadow: -1.5px 0 #121212, 0 1px #121212, 1px 0 #121212, 0 -1px #121212;
